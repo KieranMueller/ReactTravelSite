@@ -1,5 +1,6 @@
 html{
     background-image:linear-gradient(rgb(32, 14, 46),rgb(62, 12, 77));
+    overflow-x: hidden;
 }
 .image{
     width:100%;
