@@ -1,5 +1,12 @@
 let root = ReactDOM.createRoot(document.querySelector("#root"))
 
+function lol() {
+    alert("Yeah... This button does absolutely nothing.")
+}
+
+
+//===================================================
+
 let Data = [
     {
         title: "Minneapolis",
@@ -83,7 +90,7 @@ function Card(props) {
             <div className = "views-div">Views: {props.item.views}</div>
             <div className="top-div">
                     <h1>{props.item.title}</h1>
-                    <button>Save</button>
+                    <button onClick={lol}>Save</button>
                 <h3>{props.item.location}</h3>
             </div>
                 <a href={props.item.googleMapsUrl}>
