@@ -32,9 +32,9 @@ body{
 .top-div{
     display: flex;
     justify-content: space-between;
-    margin:10px 10px;
     align-items: center;
     width:90vw;
+    overflow-x: hidden;
 }
 h1, h3{
     margin:5px;
